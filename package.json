@@ -1,0 +1,18 @@
+{
+  "name": "wheel-helper",
+  "version": "0.0.1",
+  "description": "The project initializes the synthesizer and builds the wheel assistant",
+  "main": "index.js",
+  "bin": {
+    "wl": "./bin/mvc.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kmq",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0"
+  }
+}
