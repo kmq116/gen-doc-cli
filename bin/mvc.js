@@ -1,17 +1,14 @@
 #!/usr/bin/env node
 
 const { program } = require("commander");
-const read = require("../lib/genAst");
-
-
+const genTypes = require("../lib/gen");
 
 // 命令 <参数> [可选参数]
 program
-  .command("read")
+  .command("g")
   .description("log 一下")
   .action((log) => {
-    read()
-    // console.log(log, "log 的参数");
+    genTypes();
   });
 
 program.parse();
