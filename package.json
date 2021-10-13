@@ -1,7 +1,7 @@
 {
   "name": "wheel-helper",
   "version": "0.0.1",
-  "description": "The project initializes the synthesizer and builds the wheel assistant",
+  "description": "d.ts 文件生成",
   "main": "index.js",
   "bin": {
     "wh": "./bin/mvc.js"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./lib/genAst.js"
   },
-  "author": "kmq",
+  "author": "kmq116",
   "license": "ISC",
   "dependencies": {
     "@babel/parser": "^7.15.8",
