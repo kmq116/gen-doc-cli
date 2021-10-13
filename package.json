@@ -16,5 +16,9 @@
     "@babel/parser": "^7.15.8",
     "commander": "^8.2.0",
     "inquirer": "^8.2.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/kmq116"
+  },
+  "repository": "https://github.com/kmq116/gen-doc-cli"
 }
