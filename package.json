@@ -20,5 +20,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/kmq116"
   },
-  "repository": "https://github.com/kmq116/gen-doc-cli"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmq116/gen-doc-cli.git"
+  }
 }
