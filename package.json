@@ -1,6 +1,6 @@
 {
-  "name": "wheel-helper",
-  "version": "0.0.1",
+  "name": "wheel-helpers",
+  "version": "0.0.4",
   "description": "d.ts 文件生成",
   "main": "index.js",
   "bin": {
@@ -16,9 +16,6 @@
     "@babel/parser": "^7.15.8",
     "commander": "^8.2.0",
     "inquirer": "^8.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kmq116"
   },
   "repository": {
     "type": "git",
